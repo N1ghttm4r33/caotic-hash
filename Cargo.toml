@@ -1,0 +1,15 @@
+[package]
+name = "caotic_hash"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+rand = "0.8"
+base64 = "0.22"
+hex = "0.4"
+num-bigint = "0.4.6"
+num-traits = "0.2.19"
+nalgebra = "0.33.0"
+
+[profile.dev]
+opt-level = "z"
